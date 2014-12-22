@@ -58,7 +58,7 @@ class PirateName {
 
   String _firstName;
   String _appellation;
-
+  
   PirateName({String firstName, String appellation}) {
     if (firstName == null) {
       _firstName = names[indexGen.nextInt(names.length)];
